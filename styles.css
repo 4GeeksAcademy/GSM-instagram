@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+
+.POST {
+  width: 400px;
+  margin: 20px auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.superior {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+ 
+}
+
+.logo1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 10%; 
+}
+
+.informacion {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.informacion strong {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 2px;
+}
+
+.informacion small {
+  font-size: 12px;
+  color: rgb(221, 49, 231);
+  margin: 2px;
+}
+
+.menu {
+  margin-left: auto;
+  font-size: 20px;
+  cursor: pointer;
+  color: #000;
+}
+
+.image img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+
+.iconos {
+  display: flex;
+  align-items: center;
+  padding: 8px 15px;
+  gap: 20px;
+  font-size: 26px;
+  color: #000;
+}
+
+.iconos .fa-bookmark {
+  margin-left: auto; 
+}
+
+.icons {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.icons:hover {
+  color: #e1306c; 
+}
+
+
+.inferior {
+  padding: 0 15px 15px 15px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.inferior p strong {
+  font-weight: 700;
+  
+}
